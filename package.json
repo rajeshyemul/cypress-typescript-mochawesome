@@ -1,0 +1,26 @@
+{
+  "name": "cypress-e2e-typescript",
+  "version": "1.0.0",
+  "description": "\"Automation Testing framework using cypress and typescript\"",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --config-file config/config.json",
+    "cy:run": "cypress run --config-file config/config.json"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "e2e",
+    "testing",
+    "automation",
+    "testing"
+  ],
+  "author": "Rajesh Yemul",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
