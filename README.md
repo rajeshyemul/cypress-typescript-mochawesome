@@ -11,7 +11,7 @@
 ----------------------------------------------------------------------------------------------
 **Directory Structure**
 
-<img width="288" alt="Screenshot 2022-02-17 at 6 07 25 PM" src="https://user-images.githubusercontent.com/6477971/154483325-5ab7f366-daee-49a5-989f-c7cc63dbdd1b.png">
+<img width="397" alt="Screenshot 2022-02-22 at 6 56 38 PM" src="https://user-images.githubusercontent.com/6477971/155141747-a8fd10ef-2686-4321-87f1-94187b80fcf1.png">
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,3 +26,5 @@
 - npm install
 
 - npm run cy:open
+
+- npm run cy: run for mochawesome reports
