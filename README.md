@@ -1,4 +1,4 @@
-# Cypress-e2e-Typescript Automation-Framework
+# Cypress-Typescript-Mochawesome Automation-Framework
 
 **This Framework contains sample code for # Cypress-Typescript-Mochawesome-Automation-Framework**
 ---------------------------------------------------------------------------------------------
