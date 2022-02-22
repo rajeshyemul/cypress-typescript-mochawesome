@@ -8,7 +8,7 @@
 
 - Simple login scenario with valid credentials and with invalid credentials
 
-- Customixed mochawesome reports
+- Customized mochawesome reports
 
 ----------------------------------------------------------------------------------------------
 **Directory Structure**
