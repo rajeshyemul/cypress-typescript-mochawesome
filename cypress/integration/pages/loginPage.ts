@@ -1,6 +1,8 @@
 /// <reference types="cypress" />
 
-class LoginPage {
+import BasePage from "./basePage"
+
+class LoginPage extends BasePage{
     get signinLink() { return cy.get('.login') }
     get emailAddressTxt() { return cy.get('#email') }
     get passwordTxt() { return cy.get('#passwd') }
@@ -8,13 +10,6 @@ class LoginPage {
     get alertBox() { return cy.get('p:contains("error")')}
     get alertMessage() { return cy.get('.alert-danger > ol > li') }
     
-    /**
-     * This method launches the application
-     */
-    public launchApplication() {
-        cy.visit('/')
-    }
-
     /**
      * This method is responsible for login functionality. Accepts credentials and perform the login activity
      * @param emailId - Takes emailId

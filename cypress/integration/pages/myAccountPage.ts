@@ -1,8 +1,9 @@
 /// <reference types="cypress" />
 
+import BasePage from "./basePage"
 import { loginPage } from "./loginPage"
 
-class MyAccountPage {
+class MyAccountPage extends BasePage{
     get signoutLink() { return cy.get('.logout') }
     get pageHeading() { return cy.get('.page-heading') }
 
