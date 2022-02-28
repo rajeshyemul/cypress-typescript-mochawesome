@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open --config-file config/config.json",
-    "cy:run": "cypress run --config-file config/config.json"
+    "cy:run": "cypress run --config-file config/config.json",
+    "cy:run-dashboard": "cypress run --record --key 27e58c20-dbf6-4b0c-8820-a7775ea80c77 --config-file config/config.json"
   },
   "keywords": [
     "cypress",
@@ -13,7 +14,8 @@
     "e2e",
     "testing",
     "automation",
-    "testing"
+    "testing",
+    "mochawesome-reports"
   ],
   "author": "Rajesh Yemul",
   "license": "ISC",
